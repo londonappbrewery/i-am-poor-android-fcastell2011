@@ -11,7 +11,7 @@
     tools:context="com.londonappbrewery.iampoor.MainActivity">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/image_coal"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentLeft="true"
@@ -21,7 +21,7 @@
         app:srcCompat="@drawable/coal" />
 
     <TextView
-        android:id="@+id/txtIam"
+        android:id="@+id/txt_i_am"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
@@ -36,15 +36,15 @@
         android:textSize="40sp" />
 
     <TextView
-        android:id="@+id/txtPoor"
+        android:id="@+id/txt_poor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/txtIam"
-        android:layout_alignBottom="@+id/txtIam"
+        android:layout_alignBaseline="@+id/txt_i_am"
+        android:layout_alignBottom="@+id/txt_i_am"
         android:layout_marginLeft="18dp"
         android:layout_marginStart="18dp"
-        android:layout_toEndOf="@+id/txtIam"
-        android:layout_toRightOf="@+id/txtIam"
+        android:layout_toEndOf="@+id/txt_i_am"
+        android:layout_toRightOf="@+id/txt_i_am"
         android:text="@string/poor"
         android:textSize="40sp"
         android:textStyle="bold" />
